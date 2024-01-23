@@ -1,6 +1,8 @@
 ## Usage
 Para utilizar la nueva actualización de usarios se debe utilizar la ruta `/api/usuarios/`
 
+La API se conecta a red local de MongoDB en el puerto `27017` utilizando una base de datos `usuarios`
+
 ## Get All Users
 GET `/api/usuarios/`
 
