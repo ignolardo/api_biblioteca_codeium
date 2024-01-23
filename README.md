@@ -21,7 +21,8 @@ El cuerpo de la petición debe contener como parametros nombre y apellido.
 ```
 
 ## Update User
-PUT `/api/usuarios/:id/`
+PUT `/api/usuarios/[id]/`
+
 Cambia [id] por el ID del usario a editar
 
 El cuerpo de la petición debe contener como parametros nombre y apellido.
@@ -33,5 +34,6 @@ El cuerpo de la petición debe contener como parametros nombre y apellido.
 ```
 
 ## Delete User
-DELETE `/api/usuarios/:id/`
+DELETE `/api/usuarios/[id]/`
+
 Cambia [id] por el ID del usario a eliminar
